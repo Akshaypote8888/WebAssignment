@@ -21,8 +21,8 @@ How to use this repository
 
 | S No. | Topic     | Assignment                                | FreeCodeCamp Id | Question Done Till Now |
 | ----- | --------- | ----------------------------------------- | --------------- | --------------- |
-| 1     | JS Basics | [JS BASIC Question List](./1-JS-BASICS/) | https://www.freecodecamp.org/Akshay-Pote           |      15           |
-
+| 1     | JS Basics | [JS BASIC Question List](./1-JS-BASICS/) | https://www.freecodecamp.org/Akshay-Pote           |        15           |
+ 
 # HTML
 
 | S No. | Topic | Assignment                                              | Hosted Link |
