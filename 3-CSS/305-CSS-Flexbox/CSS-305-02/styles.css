@@ -1,0 +1,72 @@
+
+.calculator {
+    background-color: rgb(221, 70, 95);
+    padding: 10px;
+    border-radius: 6px;
+    width: fit-content;
+}
+
+.container {
+    width: 350px;
+    height: 350px;
+    background-color: rgb(44, 80, 101);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clear-button{
+   background-color: rgb(252, 200, 29);
+   border-radius: 6px;
+   border: 0px;
+   border-bottom: 4px solid rgb(212, 170, 31);
+   width: 50px;
+   height: 40px;
+   font-size: large;
+   margin-right: 10px;
+   margin-left: 8px;
+}
+.screen {
+    border-radius: 6px;
+    background-color: rgb(44, 80, 101);
+    color: white;
+    text-align: right;
+    width: 188px;
+    height: 36px;
+    margin: 0;
+    font-size: large;
+}
+.numbers {
+   background-color: rgb(44, 80, 101);
+   border-radius: 6px;
+   border: 0px;
+   border-bottom: 2px solid rgb(191, 151, 19);
+   width: 50px;
+   height: 40px;
+   font-size: large;
+   color: #ffffff;
+   margin: 8px;
+   border-bottom: 4px solid rgb(14, 63, 73);
+}
+.operator {
+   background-color: rgb(252, 200, 29);
+   border-radius: 6px;
+   border: 0px;
+   border-bottom: 2px solid rgb(191, 151, 19);
+   width: 50px;
+   height: 40px;
+   font-size: large;
+   border-bottom: 4px solid rgb(212, 170, 31);
+   margin: 8px;
+}
+.equals {
+    background-color: rgb(28, 205, 102);
+    border-radius: 6px;
+    border: 0px;
+    border-bottom: 2px solid rgb(191, 151, 19);
+    width: 50px;
+    height: 40px;
+    font-size: large;
+    margin: 8px;
+    border-bottom: 4px solid rgb(8, 130, 59);
+}
