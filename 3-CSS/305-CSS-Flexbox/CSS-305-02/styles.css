@@ -4,6 +4,7 @@
     padding: 10px;
     border-radius: 6px;
     width: fit-content;
+    border-bottom: 4px solid rgb(194, 17, 47);
 }
 
 .container {
