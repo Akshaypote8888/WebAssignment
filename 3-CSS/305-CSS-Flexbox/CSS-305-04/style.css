@@ -1,1 +1,205 @@
-/* start your styling here  */
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+img {
+    width: 90px;
+    height: 50px;
+    margin-right: 10px;
+}
+body {
+    background-color: gray;
+}
+
+.nev-bar {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(65, 119, 237);
+}
+
+.search {
+    width: 500px;
+    height: 30px;
+}
+
+.icon {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    color: rgb(65, 119, 237);
+}
+
+.search-bar {
+    position: relative;
+}
+
+.login {
+    color: rgb(65, 119, 237);
+    background-color: white;
+    height: 28px;
+    width: 100px;
+    margin-left: 20PX;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: bold;
+    border: 0;
+}
+
+.seller {
+    color: white;
+    background-color: rgb(65, 119, 237);
+    border: 0;
+    margin-left: 20px;
+}
+
+.button-drop{
+    background-color: rgb(65, 119, 237);
+    color: white;
+    margin-left: 20px;
+    border: 0;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+    background-color: rgb(65, 119, 237);
+  }
+  .dropdown-options {
+    display: none;
+    position: absolute;
+    overflow: auto;
+    background-color: white;
+    color: rgb(65, 119, 237);
+    padding: 5px;
+    gap: 10px;
+  }
+  
+  .dropdown:hover .dropdown-options {
+    display: block;
+  }
+
+  .cart-icon{
+    color: white;
+    margin-left: 30px;
+  }
+  .cart-button {
+    color: white;
+    background-color: rgb(65, 119, 237);
+    border: 0;
+  }
+  .category {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: white;
+    
+  }
+  .cat-icon {
+    color: brown;
+  }
+  .offer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 20px 10px 20px;
+  }
+.offername {
+    font-size: small;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.grocery-icon {
+    height: 50px;
+    width: 50px;
+    margin: 0;
+}
+.grocery {
+    margin: 15px 30px 10px 30px;
+}
+.mobile-icon {
+    height: 50px;
+    width: 50px;
+    margin: 0;
+}
+.fashion-icon {
+    height: 50px;
+    width: 50px;
+    margin: 0;
+}
+.mobiles {
+    margin: 15px 30px 10px 30px;
+}
+
+.fashions {
+    margin: 15px 30px 10px 30px;
+}
+.fashion-button-drop{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border: 0;
+    margin: 0;
+}
+
+.fashion-dropdown {
+    display: inline-block;
+    position: relative;
+}
+  .fashion-dropdown-options {
+    display: none;
+    position: absolute;
+    overflow: auto;
+    background-color: white;
+    color: rgb(65, 119, 237);
+  }
+  
+  .fashion-dropdown:hover .fashion-dropdown-options {
+    display: block;
+  }
+  .electronic-icon {
+    height: 50px;
+    width: 80px;
+    margin: 0;
+
+  }
+  .home-icon {
+    height: 50px;
+    width: 70px;
+    margin: 0;
+
+  }
+  .electronic {
+    margin: 15px 40px 10px 10px;
+}
+.home {
+    margin: 15px 30px 10px 30px;
+}
+.appliances-icon {
+    height: 50px;
+    width: 70px;
+    margin: 0;
+    margin-left: 5px;
+}
+.appliances {
+    margin:15px 30px 10px 30px;
+}
+.travel {
+    margin: 15px 30px 10px 30px;
+}
+.travel-icon {
+    height: 50px;
+    width: 50px;
+    margin: 0;
+}
+.toys {
+    margin: 15px 30px 10px 30px;
+}
+.toys-icon {
+    height: 50px;
+    width: 70px;
+    margin-left: 20px;
+}
